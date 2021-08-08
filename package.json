@@ -1,0 +1,24 @@
+{
+  "name": "basic-react-express-integration",
+  "version": "1.0.0",
+  "description": "barebone minimum react express integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realxilu/basic-react-express-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realxilu/basic-react-express-integration/issues"
+  },
+  "homepage": "https://github.com/realxilu/basic-react-express-integration#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
