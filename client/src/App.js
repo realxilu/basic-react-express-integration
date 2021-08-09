@@ -4,15 +4,13 @@ import { useState, useEffect } from 'react'
 const App = () => {
   const [msg, setMsg] = useState('loading...')
 
-  const API_ENDPOINT = '/hello'
-
   useEffect(() => {
-    fetch(API_ENDPOINT)
-      .then((r) => r.json())
-      .then((r) => setMsg(r.msg))
+    fetch('/hello')
+      .then((res) => res.json())
+      .then((res) => setMsg(res.msg))
   })
 
-  return <div>{msg}</div>
+  return <h1>{msg}</h1>
 }
 
 export default App
