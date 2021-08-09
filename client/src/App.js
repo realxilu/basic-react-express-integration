@@ -1,8 +1,7 @@
-import React from 'react'
 import { useState, useEffect } from 'react'
 
 const App = () => {
-  const [msg, setMsg] = useState('loading...')
+  const [msg, setMsg] = useState('Loading...')
 
   useEffect(() => {
     fetch('/hello')
